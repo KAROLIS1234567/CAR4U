@@ -18,7 +18,7 @@ private Button button;
         button = (Button) findViewById(R.id.button);
 button.setOnClickListener(new View.OnClickListener() {
     @Override
-    public void onClick(View view) {
+    public void onClick(View v) {
         openActivity2();
     }
 });

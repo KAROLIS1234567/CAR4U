@@ -5,32 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/gradient_background" >
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="200dp"
-        android:layout_marginTop="200dp"
-        android:text="Meniu"
-        android:gravity="center"
-        android:textColor="@color/black" />
-
+    android:background="@drawable/gradient_background"
+    tools:ignore="NamespaceTypo">
     <Button
         android:id="@+id/button"
-        style="@style/Widget.AppCompat.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="111dp"
-        android:layout_marginEnd="89dp"
-        android:layout_marginBottom="237dp"
-        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="230dp"
         android:text="Pradėti Testą"
-        android:textColor="@color/black" />
+        android:textColor="@color/white" />
 </RelativeLayout>
