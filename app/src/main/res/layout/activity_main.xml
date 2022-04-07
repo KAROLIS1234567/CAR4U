@@ -12,22 +12,25 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_centerInParent="true"
-        android:layout_marginStart="160dp"
+        android:layout_marginStart="200dp"
         android:layout_marginTop="200dp"
         android:text="Meniu"
-        android:textColor="@color/black"/>
+        android:gravity="center"
+        android:textColor="@color/black" />
 
     <Button
         android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="100dp"
-        android:layout_marginEnd="100dp"
-        android:layout_marginBottom="190dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="237dp"
+        android:gravity="center"
         android:text="Pradėti Testą"
-        android:textColor="@color/black"/>
+        android:textColor="@color/black" />
 </RelativeLayout>
