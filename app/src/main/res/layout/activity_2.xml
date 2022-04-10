@@ -12,14 +12,14 @@
 
     <TextView
         android:id="@+id/Lytis"
-        android:layout_width="106dp"
-        android:layout_height="40dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="75dp"
-        android:layout_marginEnd="190dp"
-        android:text="@string/lytis"
-        android:textSize="20sp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="266dp"
+        android:text="Lytis"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.118"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,17 +27,17 @@
 
     <RadioGroup
         android:id="@+id/radioGroup"
-        android:layout_width="134dp"
-        android:layout_height="152dp"
+        android:layout_width="130dp"
+        android:layout_height="145dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="37dp"
-        android:layout_marginTop="118dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="121dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.834"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent">
 
     <RadioButton
         android:id="@+id/radioButton"
@@ -48,10 +48,11 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="120dp"
         android:onClick="radioButtonhandler"
-        android:text="@string/vyras"
+        android:text="Vyras"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="OnClick" />
 
     <RadioButton
         android:id="@+id/female"
@@ -60,9 +61,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="170dp"
+        android:layout_marginTop="167dp"
         android:onClick="radioButtonhandler"
-        android:text="@string/moteris"
+        android:text="Moteris"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.655"
         app:layout_constraintStart_toStartOf="parent"
@@ -75,24 +76,25 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="220dp"
+        android:layout_marginTop="216dp"
         android:onClick="radioButtonhandler"
-        android:text="@string/other"
+        android:text="Other"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.949"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <EditText
         android:id="@+id/Amžius"
-        android:layout_width="120dp"
+        android:layout_width="100dp"
         android:layout_height="40dp"
         android:layout_alignParentStart="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="280dp"
+        android:layout_marginTop="279dp"
         android:ems="10"
-        android:hint="@string/am_ius"
+        android:hint="Amžius"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.151"
@@ -101,32 +103,20 @@
 
     <EditText
         android:id="@+id/Turima_Suma"
-        android:layout_width="120dp"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="40dp"
         android:layout_marginTop="335dp"
-        android:layout_marginEnd="249dp"
+        android:layout_marginEnd="212dp"
         android:ems="10"
-        android:hint="@string/turima_suma"
+        android:hint="Turima Suma"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.919"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="684dp"
-        android:backgroundTint="#D500F9"
-        android:onClick="submitbuttonHandler"
-        android:text="@string/pateikti"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.425"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
 </RelativeLayout>
