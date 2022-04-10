@@ -4,6 +4,13 @@
     <string name="Meniu" />
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lytis">Lytis</string>
+    <string name="vyras">Vyras</string>
+    <string name="moteris">Moteris</string>
+    <string name="other">Other</string>
+    <string name="am_ius">Amžius</string>
+    <string name="turima_suma">Turima Suma</string>
+    <string name="pateikti">Pateikti</string>
 
 
 </resources>
