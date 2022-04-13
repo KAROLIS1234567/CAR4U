@@ -11,14 +11,14 @@
 
 
     <TextView
-        android:id="@+id/Lytis"
+        android:id="@+id/lytis"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="92dp"
         android:layout_marginEnd="266dp"
-        android:text="Lytis"
+        android:text="@string/lytis"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.118"
@@ -40,7 +40,7 @@
         app:layout_constraintTop_toTopOf="parent"/>
 
     <RadioButton
-        android:id="@+id/radioButton"
+        android:id="@+id/vyras"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -48,14 +48,14 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="120dp"
         android:onClick="radioButtonhandler"
-        android:text="Vyras"
+        android:text="@string/vyras"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="OnClick" />
 
     <RadioButton
-        android:id="@+id/female"
+        android:id="@+id/moteris"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -63,14 +63,14 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="167dp"
         android:onClick="radioButtonhandler"
-        android:text="Moteris"
+        android:text="@string/moteris"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.655"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <RadioButton
-        android:id="@+id/other"
+        android:id="@+id/kita"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -78,7 +78,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="216dp"
         android:onClick="radioButtonhandler"
-        android:text="Other"
+        android:text="@string/kita"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.949"
         app:layout_constraintStart_toStartOf="parent"
@@ -86,15 +86,15 @@
 
 
     <EditText
-        android:id="@+id/Amžius"
+        android:id="@+id/amzius"
         android:layout_width="100dp"
-        android:layout_height="40dp"
+        android:layout_height="48dp"
         android:layout_alignParentStart="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="40dp"
         android:layout_marginTop="279dp"
         android:ems="10"
-        android:hint="Amžius"
+        android:hint="@string/amzius"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.151"
@@ -102,21 +102,35 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/Turima_Suma"
+        android:id="@+id/turimasuma"
         android:layout_width="100dp"
-        android:layout_height="40dp"
+        android:layout_height="48dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="40dp"
         android:layout_marginTop="335dp"
         android:layout_marginEnd="212dp"
         android:ems="10"
-        android:hint="Turima Suma"
+        android:hint="@string/turimasuma"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.919"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="540dp"
+        android:backgroundTint="@color/blue"
+        android:layout_centerHorizontal="true"
+        android:onClick="submitbuttonHandler"
+        android:text="@string/pateikti"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
 </RelativeLayout>

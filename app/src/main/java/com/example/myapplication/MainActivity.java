@@ -28,19 +28,10 @@ public void openActivity2(){
     startActivity(intent);
 }
 
+    public void submitbuttonHandler(View view) {
 
-    public void radioButtonhandler(View view) {
-
-        // Decide what happens when a user clicks on a button
     }
 
-
-
-
-
-
-    public void submitbuttonHandler(View view) {
-        //Decide what happens when the user clicks the submit button
-
+    public void radioButtonhandler(View view) {
     }
 }
