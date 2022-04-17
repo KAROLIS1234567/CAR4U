@@ -27,6 +27,11 @@ public class Activity2 extends AppCompatActivity {
     }
     public void submitbuttonHandler(View view) {
 
+            Intent intent = new Intent(this, Activity3.class);
+            startActivity(intent);
+
 
     }
+
+
 }

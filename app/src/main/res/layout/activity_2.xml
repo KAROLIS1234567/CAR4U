@@ -37,7 +37,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.834"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <RadioButton
         android:id="@+id/vyras"
@@ -49,10 +49,11 @@
         android:layout_marginTop="120dp"
         android:onClick="radioButtonhandler"
         android:text="@string/vyras"
+        android:textColor="#424242"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="OnClick" />
+        tools:ignore="OnClick,TextContrastCheck,TextContrastCheck,TextContrastCheck" />
 
     <RadioButton
         android:id="@+id/moteris"
@@ -79,10 +80,12 @@
         android:layout_marginTop="216dp"
         android:onClick="radioButtonhandler"
         android:text="@string/kita"
+        android:textColor="#37474F"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.949"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck" />
 
 
     <EditText
@@ -93,9 +96,11 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="40dp"
         android:layout_marginTop="279dp"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/amzius"
         android:inputType="number"
+        android:textColorHint="#004D40"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.151"
         app:layout_constraintStart_toStartOf="parent"
@@ -110,9 +115,11 @@
         android:layout_marginStart="40dp"
         android:layout_marginTop="335dp"
         android:layout_marginEnd="212dp"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/turimasuma"
         android:inputType="number"
+        android:textColorHint="#004D40"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.919"
         app:layout_constraintStart_toStartOf="parent"
