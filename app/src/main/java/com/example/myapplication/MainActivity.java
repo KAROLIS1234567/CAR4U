@@ -28,10 +28,10 @@ public void openActivity2(){
     startActivity(intent);
 }
 
-    public void submitbuttonHandler(View view) {
-
-    }
 
     public void radioButtonhandler(View view) {
+    }
+
+    public void submitbuttonHandler(View view) {
     }
 }

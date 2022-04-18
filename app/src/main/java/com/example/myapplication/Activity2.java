@@ -25,12 +25,10 @@ public class Activity2 extends AppCompatActivity {
 
         // Decide what happens when a user clicks on a button
     }
+
     public void submitbuttonHandler(View view) {
-
-            Intent intent = new Intent(this, Activity3.class);
-            startActivity(intent);
-
-
+        Intent intent = new Intent(this, Activity3.class);
+        startActivity(intent);
     }
 
 
