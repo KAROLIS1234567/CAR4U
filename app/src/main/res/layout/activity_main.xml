@@ -7,6 +7,11 @@
     tools:context=".MainActivity"
     android:background="@drawable/gradient_background"
     tools:ignore="NamespaceTypo">
+<androidx.drawerlayout.widget.DrawerLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</androidx.drawerlayout.widget.DrawerLayout>
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
